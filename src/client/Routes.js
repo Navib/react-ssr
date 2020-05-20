@@ -5,7 +5,7 @@ import Home from "./components/Home";
 export default () => {
   return (
     <div>
-      <Route extact path="/" component={Home} />
+      <Route exact path="/" component={Home} />
     </div>
   );
 };
